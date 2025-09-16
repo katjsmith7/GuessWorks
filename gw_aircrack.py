@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # aMiscreant
-
 import argparse
 import itertools
 import random

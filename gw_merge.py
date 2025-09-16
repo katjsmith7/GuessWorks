@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # aMiscreant
-
 import glob
 
 output_file = "wordlist_clean.txt"
