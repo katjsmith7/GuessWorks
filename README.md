@@ -1,4 +1,4 @@
-<img width="640" height="640" alt="GuessWorks" src="https://github.com/user-attachments/assets/e1106fb7-f860-4d1b-8abc-0752e2e1fdf8" />
+<img width="340" height="340" alt="GuessWorks" src="https://github.com/user-attachments/assets/e1106fb7-f860-4d1b-8abc-0752e2e1fdf8" />
 
 # Guess Works
 
