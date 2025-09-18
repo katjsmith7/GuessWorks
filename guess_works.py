@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # aMiscreant
 import argparse
+import random
+import string
 from datetime import datetime
 
 # Canadian phone prefixes, feel free to expand
@@ -326,6 +328,9 @@ def sports_guesses(args):
         return [f"{team}{i}" for team in all_teams for i in range(1, args.add_numbers + 1)]
     return [f"{team}{y}" if not args.no_year else team for team in all_teams for y in years]
 
+def random_filler_lines(count=1000, length=8):
+    """Generate N random numeric strings of given length."""
+    return ["".join(random.choices(string.digits, k=length)) for _ in range(count)]
 
 # --- Master Guess Generator ---
 def generate_guesses(args):
@@ -394,9 +399,23 @@ def main():
     parser.add_argument("--capitalize", action="store_true",
                         help="Capitalize the first character of each line (skips lines starting with numbers)")
 
+    # New switch for filler
+    parser.add_argument("--filler", action="store_true",
+                        help="Add 8000 random numeric 8-char strings at start and end")
+    parser.add_argument("--filler-count", type=int, default=7000,
+                        help="Total filler lines (default: 7000, 5000 start + 2000 end)")
+
     args = parser.parse_args()
     guesses = generate_guesses(args)
     guesses = process_wordlist(guesses, args)
+
+    if args.filler:
+        # Default split: 5000 front, rest at end
+        front = 5000 if args.filler_count > 5000 else args.filler_count
+        back = max(0, args.filler_count - front)
+        fillers_front = random_filler_lines(front, 8)
+        fillers_back = random_filler_lines(back, 8)
+        guesses = fillers_front + guesses + fillers_back
 
     if args.output:
         with open(args.output, 'w') as f:

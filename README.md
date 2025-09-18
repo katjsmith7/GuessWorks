@@ -7,7 +7,7 @@
 ### realistic password/wordlist generation
 
 | Argument          | Description                                                  |
-| ----------------- | ------------------------------------------------------------ |
+|-------------------|--------------------------------------------------------------|
 | `-e, --essid`     | Target ESSID (e.g., BELL123456)                              |
 | `-a, --area`      | Area code for phone number guesses (e.g., 416)               |
 | `-s, --street`    | Street name (e.g., Main, KingWest)                           |
@@ -23,7 +23,8 @@
 | `--clean-length`  | Remove lines under 8 characters long                         |
 | `--clean-numbers` | Remove lines containing only numbers                         |
 | `--capitalize`    | Capitalize the first character of each line (skips numbers)  |
-
+| `--filler`        | Adds junk numeric strings to the start and end of file       |
+| `--filler-count`  | Total filler lines (default: 7000, 5000 start + 2000 end)    |
 ---
 + ```bash
   # 1. Generate guesses for a specific ESSID
